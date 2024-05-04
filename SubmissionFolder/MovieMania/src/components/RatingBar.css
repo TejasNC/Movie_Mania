@@ -1,0 +1,16 @@
+
+.rating-bar {
+    font-size: 30px;
+  }
+  
+.star {
+cursor: pointer;
+}
+
+.star.active {
+color: #FFD700; 
+}
+
+#rating_button {
+    justify-content: centerd;
+}

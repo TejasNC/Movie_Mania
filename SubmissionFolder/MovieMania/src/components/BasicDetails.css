@@ -1,0 +1,21 @@
+.card {
+    border: 2px solid #FFD700; /* Golden border */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  }
+
+.card-img-top {
+  align-items: center;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.card-header {
+  text-align: center ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-emphasis: bold;
+  text-size-adjust: 100%;
+  color: #FFD700;
+}

@@ -1,0 +1,38 @@
+/* crew.css */
+.card {
+    border: 2px solid #FFD700; /* Golden border */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-header {
+    font-weight: bold;
+  }
+  
+  .section-title {
+    color: #FFD700; /* Golden color */
+    margin-bottom: 10px;
+  }
+  
+  .crew-list {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .crew-list li {
+    margin-right: 10px;
+  }
+  
+  .crew-list li::before {
+    content: "\\2022"; /* Bullet character */
+    color: #FFD700; /* Golden color */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .directors-section, .writers-section, .cast-section {
+    margin-bottom: 20px;
+  }
+  

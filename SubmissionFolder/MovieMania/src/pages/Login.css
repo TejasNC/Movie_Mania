@@ -1,0 +1,15 @@
+
+
+.container {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .invalid-feedback {
+    color: #dc3545; /* Bootstrap's error color */
+  }
+  
